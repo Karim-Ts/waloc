@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+body{
+    margin: 0px 0px;
+    font-family: 'Kodchasan', sans-serif;
+    background-image: url(../img/audi-fond.jpg);
+    background-size: cover;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar{
+    word-spacing: 15px;
+    padding-right: 2%;
+}
+
+nav>a>img{
+    width: 60%;
+    max-width: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.883);
+}
+
+.droite-nav{
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 5%;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.champs{
+    margin: 35px;
+    padding: 1% 7%;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    border-style: none;
+}
+
+.boutton{
+    text-align: center;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+
+.bloc-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inscription{
+    color: white;
+    padding-bottom: 40px;
+}

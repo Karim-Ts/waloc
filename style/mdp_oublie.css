@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+body{
+    margin: 0px 0px;
+    font-family: 'Kodchasan', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none !important;
+    color: grey !important;
+}
+
+.navbar{
+    word-spacing: 15px;
+    padding-right: 2%;
+}
+
+nav>a>img{
+    width: 60%;
+    max-width: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.883);
+}
+
+.droite-nav{
+    margin-left: auto;
+}

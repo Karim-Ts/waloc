@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+body{
+    margin: 0px 0px;
+    font-family: 'Kodchasan', sans-serif;
+    background-image: url(../img/fond-profil.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar{
+    word-spacing: 15px;
+    padding-right: 2%;
+}
+
+nav>a>img{
+    width: 60%;
+    max-width: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.883);
+}
+
+.droite-nav{
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 5%;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.deconnexion{
+    text-align: center;
+}
+
+.bloc-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffffffec;
+    color: rgb(0, 0, 0) !important;
+    border: none;
+    border-radius: 10%;
+}

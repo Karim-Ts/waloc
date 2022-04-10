@@ -1,0 +1,88 @@
+body{
+    margin: 0px 0px;
+}
+
+.naviguation{
+    display: flex;
+    background-color: #212529;
+    justify-content: end;
+    align-items: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    word-spacing: 20px;
+    padding-right: 30px;
+    padding: 15px;
+}
+
+#a-propos-texte{
+    word-spacing: 4px;
+}
+
+.a-nav{
+    text-decoration: none;
+    color: #dee2e6;
+}
+
+.lien.nav{
+    float: right;
+}
+
+nav>img{
+    float: left;
+    width: 50px;
+}
+
+.presentation{
+    background-image: url(/Buch&Ali/img/fond.png);
+    background-position: center;
+    background-size: 1500px;
+    padding: 220px;
+    color: #dee2e6;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: #dee2e6;
+    font-size: 90px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+.presentation>p{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 20px;
+}
+
+.top-loc{
+    background-color: black;
+}
+h2{
+    color: #dee2e6;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.top-loc{
+    color: grey;
+}
+
+.all-top-loc{
+    display: flex;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color: grey;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+body{
+    margin: 0px 0px;
+    font-family: 'Kodchasan', sans-serif;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    /* background-image: url(../img/voiture-fond.jpg);
+    background-size: cover; */
+}
+
+a{
+    text-decoration: none !important;
+    color: grey !important;
+}
+
+.navbar{
+    word-spacing: 15px;
+    padding-right: 2%;
+}
+
+nav>a>img{
+    width: 60%;
+    max-width: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.883);
+}
+
+.droite-nav{
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 7%;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.bloc-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+select{
+    margin-top: 40px;
+    padding: 20px 100px;
+    font-size:large;
+    color: white;
+    text-shadow: 0 0 5px black;
+    background-color: #E4D6A7;
+}
+
+input{
+    margin-top: 40px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.876);
+    
+}
+
+.fiat>img{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.fiat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
